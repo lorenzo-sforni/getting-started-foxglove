@@ -1,0 +1,9 @@
+[package]
+name = "rust-foxglove"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3.5.1"
+foxglove = "0.16.1"
+thread = "0.0.1"
