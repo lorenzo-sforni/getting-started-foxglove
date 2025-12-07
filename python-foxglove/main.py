@@ -5,7 +5,7 @@ from foxglove.channels import Vector3Channel
 from foxglove.schemas import Vector3
 
 file_name = "test_recording.mcap"
-writer = foxglove.open_mcap(file_name)
+# writer = foxglove.open_mcap(file_name)
 server = foxglove.start_server()
 
 
